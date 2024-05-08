@@ -1,0 +1,1484 @@
+{
+  "results": [
+    {
+      "id": 2844251,
+      "series_id": 2002,
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai (night)",
+      "date": "2024-03-22T14:30:00+00:00",
+      "status": "Complete",
+      "result": "CSK won by 6 wkts (8b rem)",
+      "match_title": "Chennai Super Kings v Royal Challengers Bangalore at MA Chidambaram Stadium, Chepauk, Chennai (night), T20.",
+      "match_subtitle": "1st Match",
+      "home": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      },
+      "away": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      }
+    },
+    {
+      "id": 2844253,
+      "series_id": 2002,
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur (day/night)",
+      "date": "2024-03-23T10:00:00+00:00",
+      "status": "Complete",
+      "result": "PBKS won by 4 wkts (4b rem)",
+      "match_title": "Punjab Kings v Delhi Capitals at Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur (day/night), T20.",
+      "match_subtitle": "2nd Match",
+      "home": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      },
+      "away": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      }
+    },
+    {
+      "id": 2844255,
+      "series_id": 2002,
+      "venue": "Eden Gardens, Kolkata (night)",
+      "date": "2024-03-23T14:00:00+00:00",
+      "status": "Complete",
+      "result": "KKR won by 4 runs",
+      "match_title": "Kolkata Knight Riders v Sunrisers Hyderabad at Eden Gardens, Kolkata (night), T20.",
+      "match_subtitle": "3rd Match",
+      "home": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      },
+      "away": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      }
+    },
+    {
+      "id": 2844257,
+      "series_id": 2002,
+      "venue": "Sawai Mansingh Stadium, Jaipur (day/night)",
+      "date": "2024-03-24T10:00:00+00:00",
+      "status": "Complete",
+      "result": "RR won by 20 runs",
+      "match_title": "Rajasthan Royals v Lucknow Super Giants at Sawai Mansingh Stadium, Jaipur (day/night), T20.",
+      "match_subtitle": "4th Match",
+      "home": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      },
+      "away": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      }
+    },
+    {
+      "id": 2844259,
+      "series_id": 2002,
+      "venue": "Narendra Modi Stadium, Ahmedabad (night)",
+      "date": "2024-03-24T14:00:00+00:00",
+      "status": "Complete",
+      "result": "GT won by 6 runs",
+      "match_title": "Gujarat Titans v Mumbai Indians at Narendra Modi Stadium, Ahmedabad (night), T20.",
+      "match_subtitle": "5th Match",
+      "home": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GT"
+      },
+      "away": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      }
+    },
+    {
+      "id": 2844261,
+      "series_id": 2002,
+      "venue": "M Chinnaswamy Stadium, Bengaluru (night)",
+      "date": "2024-03-25T14:00:00+00:00",
+      "status": "Complete",
+      "result": "RCB won by 4 wkts (4b rem)",
+      "match_title": "Royal Challengers Bangalore v Punjab Kings at M Chinnaswamy Stadium, Bengaluru (night), T20.",
+      "match_subtitle": "6th Match",
+      "home": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      },
+      "away": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      }
+    },
+    {
+      "id": 2844263,
+      "series_id": 2002,
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai (night)",
+      "date": "2024-03-26T14:00:00+00:00",
+      "status": "Complete",
+      "result": "CSK won by 63 runs",
+      "match_title": "Chennai Super Kings v Gujarat Titans at MA Chidambaram Stadium, Chepauk, Chennai (night), T20.",
+      "match_subtitle": "7th Match",
+      "home": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      },
+      "away": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GT"
+      }
+    },
+    {
+      "id": 2844265,
+      "series_id": 2002,
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad (night)",
+      "date": "2024-03-27T14:00:00+00:00",
+      "status": "Complete",
+      "result": "SRH won by 31 runs",
+      "match_title": "Sunrisers Hyderabad v Mumbai Indians at Rajiv Gandhi International Stadium, Uppal, Hyderabad (night), T20.",
+      "match_subtitle": "8th Match",
+      "home": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      },
+      "away": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      }
+    },
+    {
+      "id": 2844267,
+      "series_id": 2002,
+      "venue": "Sawai Mansingh Stadium, Jaipur (night)",
+      "date": "2024-03-28T14:00:00+00:00",
+      "status": "Complete",
+      "result": "RR won by 12 runs",
+      "match_title": "Rajasthan Royals v Delhi Capitals at Sawai Mansingh Stadium, Jaipur (night), T20.",
+      "match_subtitle": "9th Match",
+      "home": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      },
+      "away": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      }
+    },
+    {
+      "id": 2844269,
+      "series_id": 2002,
+      "venue": "M Chinnaswamy Stadium, Bengaluru (night)",
+      "date": "2024-03-29T14:00:00+00:00",
+      "status": "Complete",
+      "result": "KKR won by 7 wkts (19b rem)",
+      "match_title": "Royal Challengers Bangalore v Kolkata Knight Riders at M Chinnaswamy Stadium, Bengaluru (night), T20.",
+      "match_subtitle": "10th Match",
+      "home": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      },
+      "away": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      }
+    },
+    {
+      "id": 2844271,
+      "series_id": 2002,
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night)",
+      "date": "2024-03-30T14:00:00+00:00",
+      "status": "Complete",
+      "result": "LSG won by 21 runs",
+      "match_title": "Lucknow Super Giants v Punjab Kings at Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night), T20.",
+      "match_subtitle": "11th Match",
+      "home": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      },
+      "away": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      }
+    },
+    {
+      "id": 2844273,
+      "series_id": 2002,
+      "venue": "Narendra Modi Stadium, Ahmedabad (day/night)",
+      "date": "2024-03-31T10:00:00+00:00",
+      "status": "Complete",
+      "result": "GT won by 7 wkts (5b rem)",
+      "match_title": "Gujarat Titans v Sunrisers Hyderabad at Narendra Modi Stadium, Ahmedabad (day/night), T20.",
+      "match_subtitle": "12th Match",
+      "home": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GT"
+      },
+      "away": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      }
+    },
+    {
+      "id": 2844275,
+      "series_id": 2002,
+      "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam (night)",
+      "date": "2024-03-31T14:00:00+00:00",
+      "status": "Complete",
+      "result": "DC won by 20 runs",
+      "match_title": "Delhi Capitals v Chennai Super Kings at Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam (night), T20.",
+      "match_subtitle": "13th Match",
+      "home": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      },
+      "away": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      }
+    },
+    {
+      "id": 2844277,
+      "series_id": 2002,
+      "venue": "Wankhede Stadium, Mumbai (night)",
+      "date": "2024-04-01T14:00:00+00:00",
+      "status": "Complete",
+      "result": "RR won by 6 wkts (27b rem)",
+      "match_title": "Mumbai Indians v Rajasthan Royals at Wankhede Stadium, Mumbai (night), T20.",
+      "match_subtitle": "14th Match",
+      "home": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      },
+      "away": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      }
+    },
+    {
+      "id": 2844279,
+      "series_id": 2002,
+      "venue": "M Chinnaswamy Stadium, Bengaluru (night)",
+      "date": "2024-04-02T14:00:00+00:00",
+      "status": "Complete",
+      "result": "LSG won by 28 runs",
+      "match_title": "Royal Challengers Bangalore v Lucknow Super Giants at M Chinnaswamy Stadium, Bengaluru (night), T20.",
+      "match_subtitle": "15th Match",
+      "home": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      },
+      "away": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      }
+    },
+    {
+      "id": 2844281,
+      "series_id": 2002,
+      "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam (night)",
+      "date": "2024-04-03T14:00:00+00:00",
+      "status": "Complete",
+      "result": "KKR won by 106 runs",
+      "match_title": "Delhi Capitals v Kolkata Knight Riders at Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam (night), T20.",
+      "match_subtitle": "16th Match",
+      "home": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      },
+      "away": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      }
+    },
+    {
+      "id": 2844283,
+      "series_id": 2002,
+      "venue": "Narendra Modi Stadium, Ahmedabad (night)",
+      "date": "2024-04-04T14:00:00+00:00",
+      "status": "Complete",
+      "result": "PBKS won by 3 wkts (1b rem)",
+      "match_title": "Gujarat Titans v Punjab Kings at Narendra Modi Stadium, Ahmedabad (night), T20.",
+      "match_subtitle": "17th Match",
+      "home": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GT"
+      },
+      "away": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      }
+    },
+    {
+      "id": 2844285,
+      "series_id": 2002,
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad (night)",
+      "date": "2024-04-05T14:00:00+00:00",
+      "status": "Complete",
+      "result": "SRH won by 6 wkts (11b rem)",
+      "match_title": "Sunrisers Hyderabad v Chennai Super Kings at Rajiv Gandhi International Stadium, Uppal, Hyderabad (night), T20.",
+      "match_subtitle": "18th Match",
+      "home": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      },
+      "away": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      }
+    },
+    {
+      "id": 2844287,
+      "series_id": 2002,
+      "venue": "Sawai Mansingh Stadium, Jaipur (night)",
+      "date": "2024-04-06T14:00:00+00:00",
+      "status": "Complete",
+      "result": "RR won by 6 wkts (5b rem)",
+      "match_title": "Rajasthan Royals v Royal Challengers Bangalore at Sawai Mansingh Stadium, Jaipur (night), T20.",
+      "match_subtitle": "19th Match",
+      "home": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      },
+      "away": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      }
+    },
+    {
+      "id": 2844289,
+      "series_id": 2002,
+      "venue": "Wankhede Stadium, Mumbai (day/night)",
+      "date": "2024-04-07T10:00:00+00:00",
+      "status": "Complete",
+      "result": "MI won by 29 runs",
+      "match_title": "Mumbai Indians v Delhi Capitals at Wankhede Stadium, Mumbai (day/night), T20.",
+      "match_subtitle": "20th Match",
+      "home": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      },
+      "away": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      }
+    },
+    {
+      "id": 2844291,
+      "series_id": 2002,
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night)",
+      "date": "2024-04-07T14:00:00+00:00",
+      "status": "Complete",
+      "result": "LSG won by 33 runs",
+      "match_title": "Lucknow Super Giants v Gujarat Titans at Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night), T20.",
+      "match_subtitle": "21st Match",
+      "home": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      },
+      "away": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GT"
+      }
+    },
+    {
+      "id": 2852533,
+      "series_id": 2002,
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai (night)",
+      "date": "2024-04-08T14:00:00+00:00",
+      "status": "Complete",
+      "result": "CSK won by 7 wkts (14b rem)",
+      "match_title": "Chennai Super Kings v Kolkata Knight Riders at MA Chidambaram Stadium, Chepauk, Chennai (night), T20.",
+      "match_subtitle": "22nd Match",
+      "home": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      },
+      "away": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      }
+    },
+    {
+      "id": 2852535,
+      "series_id": 2002,
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur (night)",
+      "date": "2024-04-09T14:00:00+00:00",
+      "status": "Complete",
+      "result": "SRH won by 2 runs",
+      "match_title": "Punjab Kings v Sunrisers Hyderabad at Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur (night), T20.",
+      "match_subtitle": "23rd Match",
+      "home": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      },
+      "away": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      }
+    },
+    {
+      "id": 2852537,
+      "series_id": 2002,
+      "venue": "Sawai Mansingh Stadium, Jaipur (night)",
+      "date": "2024-04-10T14:00:00+00:00",
+      "status": "Complete",
+      "result": "GT won by 3 wkts (0b rem)",
+      "match_title": "Rajasthan Royals v Gujarat Titans at Sawai Mansingh Stadium, Jaipur (night), T20.",
+      "match_subtitle": "24th Match",
+      "home": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      },
+      "away": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GT"
+      }
+    },
+    {
+      "id": 2852539,
+      "series_id": 2002,
+      "venue": "Wankhede Stadium, Mumbai (night)",
+      "date": "2024-04-11T14:00:00+00:00",
+      "status": "Complete",
+      "result": "MI won",
+      "match_title": "Mumbai Indians v Royal Challengers Bangalore at Wankhede Stadium, Mumbai (night), T20.",
+      "match_subtitle": "25th Match",
+      "home": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      },
+      "away": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      }
+    },
+    {
+      "id": 2852541,
+      "series_id": 2002,
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night)",
+      "date": "2024-04-12T14:00:00+00:00",
+      "status": "Complete",
+      "result": "DC won by 6 wkts (11b rem)",
+      "match_title": "Lucknow Super Giants v Delhi Capitals at Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night), T20.",
+      "match_subtitle": "26th Match",
+      "home": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      },
+      "away": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      }
+    },
+    {
+      "id": 2852543,
+      "series_id": 2002,
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur (night)",
+      "date": "2024-04-13T14:00:00+00:00",
+      "status": "Complete",
+      "result": "RR won by 3 wkts (1b rem)",
+      "match_title": "Punjab Kings v Rajasthan Royals at Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur (night), T20.",
+      "match_subtitle": "27th Match",
+      "home": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      },
+      "away": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      }
+    },
+    {
+      "id": 2852545,
+      "series_id": 2002,
+      "venue": "Eden Gardens, Kolkata (day/night)",
+      "date": "2024-04-14T10:00:00+00:00",
+      "status": "Complete",
+      "result": "KKR won by 8 wkts (26b rem)",
+      "match_title": "Kolkata Knight Riders v Lucknow Super Giants at Eden Gardens, Kolkata (day/night), T20.",
+      "match_subtitle": "28th Match",
+      "home": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      },
+      "away": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      }
+    },
+    {
+      "id": 2852547,
+      "series_id": 2002,
+      "venue": "Wankhede Stadium, Mumbai (night)",
+      "date": "2024-04-14T14:00:00+00:00",
+      "status": "Complete",
+      "result": "CSK won by 20 runs",
+      "match_title": "Mumbai Indians v Chennai Super Kings at Wankhede Stadium, Mumbai (night), T20.",
+      "match_subtitle": "29th Match",
+      "home": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      },
+      "away": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      }
+    },
+    {
+      "id": 2852549,
+      "series_id": 2002,
+      "venue": "M Chinnaswamy Stadium, Bengaluru (night)",
+      "date": "2024-04-15T14:00:00+00:00",
+      "status": "Complete",
+      "result": "SRH won by 25 runs",
+      "match_title": "Royal Challengers Bangalore v Sunrisers Hyderabad at M Chinnaswamy Stadium, Bengaluru (night), T20.",
+      "match_subtitle": "30th Match",
+      "home": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      },
+      "away": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      }
+    },
+    {
+      "id": 2852551,
+      "series_id": 2002,
+      "venue": "Narendra Modi Stadium, Ahmedabad (night)",
+      "date": "2024-04-16T14:00:00+00:00",
+      "status": "Complete",
+      "result": "RR won by 2 wkts (0b rem)",
+      "match_title": "Gujarat Titans v Delhi Capitals at Narendra Modi Stadium, Ahmedabad (night), T20.",
+      "match_subtitle": "31st Match",
+      "home": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GJ"
+      },
+      "away": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      }
+    },
+    {
+      "id": 2852553,
+      "series_id": 2002,
+      "venue": "Eden Gardens, Kolkata (night)",
+      "date": "2024-04-17T14:00:00+00:00",
+      "status": "Complete",
+      "result": "DC won by 6 wkts (67b rem)",
+      "match_title": "Kolkata Knight Riders v Rajasthan Royals at Eden Gardens, Kolkata (night), T20.",
+      "match_subtitle": "32nd Match",
+      "home": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      },
+      "away": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      }
+    },
+    {
+      "id": 2852555,
+      "series_id": 2002,
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur (night)",
+      "date": "2024-04-18T14:00:00+00:00",
+      "status": "Complete",
+      "result": "MI won by 9 runs",
+      "match_title": "Punjab Kings v Mumbai Indians at Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur (night), T20.",
+      "match_subtitle": "33rd Match",
+      "home": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      },
+      "away": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      }
+    },
+    {
+      "id": 2852557,
+      "series_id": 2002,
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night)",
+      "date": "2024-04-19T14:00:00+00:00",
+      "status": "Complete",
+      "result": "LSG won by 8 wkts (6b rem)",
+      "match_title": "Lucknow Super Giants v Chennai Super Kings at Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night), T20.",
+      "match_subtitle": "34th Match",
+      "home": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      },
+      "away": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      }
+    },
+    {
+      "id": 2852559,
+      "series_id": 2002,
+      "venue": "Arun Jaitley Stadium, Delhi (night)",
+      "date": "2024-04-20T14:00:00+00:00",
+      "status": "Complete",
+      "result": "SRH won by 67 runs",
+      "match_title": "Delhi Capitals v Sunrisers Hyderabad at Arun Jaitley Stadium, Delhi (night), T20.",
+      "match_subtitle": "35th Match",
+      "home": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      },
+      "away": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      }
+    },
+    {
+      "id": 2852561,
+      "series_id": 2002,
+      "venue": "Eden Gardens, Kolkata (day/night)",
+      "date": "2024-04-21T10:00:00+00:00",
+      "status": "Complete",
+      "result": "KKR won by 1 run",
+      "match_title": "Kolkata Knight Riders v Royal Challengers Bangalore at Eden Gardens, Kolkata (day/night), T20.",
+      "match_subtitle": "36th Match",
+      "home": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      },
+      "away": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      }
+    },
+    {
+      "id": 2852563,
+      "series_id": 2002,
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur (night)",
+      "date": "2024-04-21T14:00:00+00:00",
+      "status": "Complete",
+      "result": "GT won by 3 wkts (5b rem)",
+      "match_title": "Punjab Kings v Gujarat Titans at Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur (night), T20.",
+      "match_subtitle": "37th Match",
+      "home": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      },
+      "away": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GT"
+      }
+    },
+    {
+      "id": 2852565,
+      "series_id": 2002,
+      "venue": "Sawai Mansingh Stadium, Jaipur (night)",
+      "date": "2024-04-22T14:00:00+00:00",
+      "status": "Complete",
+      "result": "RR won by 9 wkts (8b rem)",
+      "match_title": "Rajasthan Royals v Mumbai Indians at Sawai Mansingh Stadium, Jaipur (night), T20.",
+      "match_subtitle": "38th Match",
+      "home": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      },
+      "away": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      }
+    },
+    {
+      "id": 2852567,
+      "series_id": 2002,
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai (night)",
+      "date": "2024-04-23T14:00:00+00:00",
+      "status": "Complete",
+      "result": "LSG won by 6 wkts (3b rem)",
+      "match_title": "Chennai Super Kings v Lucknow Super Giants at MA Chidambaram Stadium, Chepauk, Chennai (night), T20.",
+      "match_subtitle": "39th Match",
+      "home": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      },
+      "away": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      }
+    },
+    {
+      "id": 2852569,
+      "series_id": 2002,
+      "venue": "Arun Jaitley Stadium, Delhi (night)",
+      "date": "2024-04-24T14:00:00+00:00",
+      "status": "Complete",
+      "result": "DC won by 4 runs",
+      "match_title": "Delhi Capitals v Gujarat Titans at Arun Jaitley Stadium, Delhi (night), T20.",
+      "match_subtitle": "40th Match",
+      "home": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      },
+      "away": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GT"
+      }
+    },
+    {
+      "id": 2852571,
+      "series_id": 2002,
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad (night)",
+      "date": "2024-04-25T14:00:00+00:00",
+      "status": "Complete",
+      "result": "RCB won by 35 runs",
+      "match_title": "Sunrisers Hyderabad v Royal Challengers Bangalore at Rajiv Gandhi International Stadium, Uppal, Hyderabad (night), T20.",
+      "match_subtitle": "41st Match",
+      "home": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      },
+      "away": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      }
+    },
+    {
+      "id": 2852573,
+      "series_id": 2002,
+      "venue": "Eden Gardens, Kolkata (night)",
+      "date": "2024-04-26T14:00:00+00:00",
+      "status": "Complete",
+      "result": "PBKS won by 8 wkts (8b rem)",
+      "match_title": "Kolkata Knight Riders v Punjab Kings at Eden Gardens, Kolkata (night), T20.",
+      "match_subtitle": "42nd Match",
+      "home": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      },
+      "away": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      }
+    },
+    {
+      "id": 2852575,
+      "series_id": 2002,
+      "venue": "Arun Jaitley Stadium, Delhi (day/night)",
+      "date": "2024-04-27T10:00:00+00:00",
+      "status": "Complete",
+      "result": "DC won by 10 runs",
+      "match_title": "Delhi Capitals v Mumbai Indians at Arun Jaitley Stadium, Delhi (day/night), T20.",
+      "match_subtitle": "43rd Match",
+      "home": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      },
+      "away": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      }
+    },
+    {
+      "id": 2852577,
+      "series_id": 2002,
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night)",
+      "date": "2024-04-27T14:00:00+00:00",
+      "status": "Complete",
+      "result": "RR won by 7 wkts (6b rem)",
+      "match_title": "Lucknow Super Giants v Rajasthan Royals at Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night), T20.",
+      "match_subtitle": "44th Match",
+      "home": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      },
+      "away": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      }
+    },
+    {
+      "id": 2852579,
+      "series_id": 2002,
+      "venue": "Narendra Modi Stadium, Ahmedabad (day/night)",
+      "date": "2024-04-28T10:00:00+00:00",
+      "status": "Complete",
+      "result": "RCB won by 9 wkts (24b rem)",
+      "match_title": "Gujarat Titans v Royal Challengers Bangalore at Narendra Modi Stadium, Ahmedabad (day/night), T20.",
+      "match_subtitle": "45th Match",
+      "home": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GT"
+      },
+      "away": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      }
+    },
+    {
+      "id": 2852581,
+      "series_id": 2002,
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai (night)",
+      "date": "2024-04-28T14:00:00+00:00",
+      "status": "Complete",
+      "result": "CSK won by 78 runs",
+      "match_title": "Chennai Super Kings v Sunrisers Hyderabad at MA Chidambaram Stadium, Chepauk, Chennai (night), T20.",
+      "match_subtitle": "46th Match",
+      "home": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      },
+      "away": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      }
+    },
+    {
+      "id": 2852583,
+      "series_id": 2002,
+      "venue": "Eden Gardens, Kolkata (night)",
+      "date": "2024-04-29T14:00:00+00:00",
+      "status": "Complete",
+      "result": "KKR won by 7 wkts (21b rem)",
+      "match_title": "Kolkata Knight Riders v Delhi Capitals at Eden Gardens, Kolkata (night), T20.",
+      "match_subtitle": "47th Match",
+      "home": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      },
+      "away": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      }
+    },
+    {
+      "id": 2852585,
+      "series_id": 2002,
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night)",
+      "date": "2024-04-30T14:00:00+00:00",
+      "status": "Complete",
+      "result": "LSG won by 4 wkts (4b rem)",
+      "match_title": "Lucknow Super Giants v Mumbai Indians at Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night), T20.",
+      "match_subtitle": "48th Match",
+      "home": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      },
+      "away": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      }
+    },
+    {
+      "id": 2852587,
+      "series_id": 2002,
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai (night)",
+      "date": "2024-05-01T14:00:00+00:00",
+      "status": "Complete",
+      "result": "PBKS won by 7 wkts (13b rem)",
+      "match_title": "Chennai Super Kings v Punjab Kings at MA Chidambaram Stadium, Chepauk, Chennai (night), T20.",
+      "match_subtitle": "49th Match",
+      "home": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      },
+      "away": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      }
+    },
+    {
+      "id": 2852589,
+      "series_id": 2002,
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad (night)",
+      "date": "2024-05-02T14:00:00+00:00",
+      "status": "Complete",
+      "result": "SRH won by 1 run",
+      "match_title": "Sunrisers Hyderabad v Rajasthan Royals at Rajiv Gandhi International Stadium, Uppal, Hyderabad (night), T20.",
+      "match_subtitle": "50th Match",
+      "home": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      },
+      "away": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      }
+    },
+    {
+      "id": 2852591,
+      "series_id": 2002,
+      "venue": "Wankhede Stadium, Mumbai (night)",
+      "date": "2024-05-03T14:00:00+00:00",
+      "status": "Complete",
+      "result": "KKR won by 24 runs",
+      "match_title": "Mumbai Indians v Kolkata Knight Riders at Wankhede Stadium, Mumbai (night), T20.",
+      "match_subtitle": "51st Match",
+      "home": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      },
+      "away": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      }
+    },
+    {
+      "id": 2852593,
+      "series_id": 2002,
+      "venue": "M Chinnaswamy Stadium, Bengaluru (night)",
+      "date": "2024-05-04T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Royal Challengers Bangalore v Gujarat Titans at M Chinnaswamy Stadium, Bengaluru (night), T20.",
+      "match_subtitle": "52nd Match",
+      "home": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      },
+      "away": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GT"
+      }
+    },
+    {
+      "id": 2852595,
+      "series_id": 2002,
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala (day/night)",
+      "date": "2024-05-05T10:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Punjab Kings v Chennai Super Kings at Himachal Pradesh Cricket Association Stadium, Dharamsala (day/night), T20.",
+      "match_subtitle": "53rd Match",
+      "home": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      },
+      "away": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      }
+    },
+    {
+      "id": 2852597,
+      "series_id": 2002,
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night)",
+      "date": "2024-05-05T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Lucknow Super Giants v Kolkata Knight Riders at Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow (night), T20.",
+      "match_subtitle": "54th Match",
+      "home": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      },
+      "away": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      }
+    },
+    {
+      "id": 2852599,
+      "series_id": 2002,
+      "venue": "Wankhede Stadium, Mumbai (night)",
+      "date": "2024-05-06T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Mumbai Indians v Sunrisers Hyderabad at Wankhede Stadium, Mumbai (night), T20.",
+      "match_subtitle": "55th Match",
+      "home": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      },
+      "away": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      }
+    },
+    {
+      "id": 2852601,
+      "series_id": 2002,
+      "venue": "Arun Jaitley Stadium, Delhi (night)",
+      "date": "2024-05-07T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Delhi Capitals v Rajasthan Royals at Arun Jaitley Stadium, Delhi (night), T20.",
+      "match_subtitle": "56th Match",
+      "home": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      },
+      "away": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      }
+    },
+    {
+      "id": 2852603,
+      "series_id": 2002,
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad (night)",
+      "date": "2024-05-08T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Sunrisers Hyderabad v Lucknow Super Giants at Rajiv Gandhi International Stadium, Uppal, Hyderabad (night), T20.",
+      "match_subtitle": "57th Match",
+      "home": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      },
+      "away": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      }
+    },
+    {
+      "id": 2852605,
+      "series_id": 2002,
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala (night)",
+      "date": "2024-05-09T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Punjab Kings v Royal Challengers Bangalore at Himachal Pradesh Cricket Association Stadium, Dharamsala (night), T20.",
+      "match_subtitle": "58th Match",
+      "home": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      },
+      "away": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      }
+    },
+    {
+      "id": 2852607,
+      "series_id": 2002,
+      "venue": "Narendra Modi Stadium, Ahmedabad (night)",
+      "date": "2024-05-10T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Gujarat Titans v Chennai Super Kings at Narendra Modi Stadium, Ahmedabad (night), T20.",
+      "match_subtitle": "59th Match",
+      "home": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GT"
+      },
+      "away": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      }
+    },
+    {
+      "id": 2852609,
+      "series_id": 2002,
+      "venue": "Eden Gardens, Kolkata (night)",
+      "date": "2024-05-11T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Kolkata Knight Riders v Mumbai Indians at Eden Gardens, Kolkata (night), T20.",
+      "match_subtitle": "60th Match",
+      "home": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      },
+      "away": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      }
+    },
+    {
+      "id": 2852611,
+      "series_id": 2002,
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai (day/night)",
+      "date": "2024-05-12T10:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Chennai Super Kings v Rajasthan Royals at MA Chidambaram Stadium, Chepauk, Chennai (day/night), T20.",
+      "match_subtitle": "61st Match",
+      "home": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      },
+      "away": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      }
+    },
+    {
+      "id": 2852613,
+      "series_id": 2002,
+      "venue": "M Chinnaswamy Stadium, Bengaluru (night)",
+      "date": "2024-05-12T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Royal Challengers Bangalore v Delhi Capitals at M Chinnaswamy Stadium, Bengaluru (night), T20.",
+      "match_subtitle": "62nd Match",
+      "home": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      },
+      "away": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      }
+    },
+    {
+      "id": 2852615,
+      "series_id": 2002,
+      "venue": "Narendra Modi Stadium, Ahmedabad (night)",
+      "date": "2024-05-13T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Gujarat Titans v Kolkata Knight Riders at Narendra Modi Stadium, Ahmedabad (night), T20.",
+      "match_subtitle": "63rd Match",
+      "home": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GT"
+      },
+      "away": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      }
+    },
+    {
+      "id": 2852617,
+      "series_id": 2002,
+      "venue": "Arun Jaitley Stadium, Delhi (night)",
+      "date": "2024-05-14T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Delhi Capitals v Lucknow Super Giants at Arun Jaitley Stadium, Delhi (night), T20.",
+      "match_subtitle": "64th Match",
+      "home": {
+        "id": 120252,
+        "name": "Delhi Capitals",
+        "code": "DC"
+      },
+      "away": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      }
+    },
+    {
+      "id": 2852619,
+      "series_id": 2002,
+      "venue": "Barsapara Cricket Stadium, Guwahati (night)",
+      "date": "2024-05-15T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Rajasthan Royals v Punjab Kings at Barsapara Cricket Stadium, Guwahati (night), T20.",
+      "match_subtitle": "65th Match",
+      "home": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      },
+      "away": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      }
+    },
+    {
+      "id": 2852621,
+      "series_id": 2002,
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad (night)",
+      "date": "2024-05-16T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Sunrisers Hyderabad v Gujarat Titans at Rajiv Gandhi International Stadium, Uppal, Hyderabad (night), T20.",
+      "match_subtitle": "66th Match",
+      "home": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      },
+      "away": {
+        "id": 161268,
+        "name": "Gujarat Titans",
+        "code": "GT"
+      }
+    },
+    {
+      "id": 2852623,
+      "series_id": 2002,
+      "venue": "Wankhede Stadium, Mumbai (night)",
+      "date": "2024-05-17T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Mumbai Indians v Lucknow Super Giants at Wankhede Stadium, Mumbai (night), T20.",
+      "match_subtitle": "67th Match",
+      "home": {
+        "id": 101754,
+        "name": "Mumbai Indians",
+        "code": "MIN"
+      },
+      "away": {
+        "id": 161271,
+        "name": "Lucknow Super Giants",
+        "code": "LSG"
+      }
+    },
+    {
+      "id": 2852625,
+      "series_id": 2002,
+      "venue": "M Chinnaswamy Stadium, Bengaluru (night)",
+      "date": "2024-05-18T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Royal Challengers Bangalore v Chennai Super Kings at M Chinnaswamy Stadium, Bengaluru (night), T20.",
+      "match_subtitle": "68th Match",
+      "home": {
+        "id": 101760,
+        "name": "Royal Challengers Bangalore",
+        "code": "RCB"
+      },
+      "away": {
+        "id": 101742,
+        "name": "Chennai Super Kings",
+        "code": "CSK"
+      }
+    },
+    {
+      "id": 2852627,
+      "series_id": 2002,
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad (day/night)",
+      "date": "2024-05-19T10:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Sunrisers Hyderabad v Punjab Kings at Rajiv Gandhi International Stadium, Uppal, Hyderabad (day/night), T20.",
+      "match_subtitle": "69th Match",
+      "home": {
+        "id": 101763,
+        "name": "Sunrisers Hyderabad",
+        "code": "SUH"
+      },
+      "away": {
+        "id": 145221,
+        "name": "Punjab Kings",
+        "code": "PK"
+      }
+    },
+    {
+      "id": 2852629,
+      "series_id": 2002,
+      "venue": "Barsapara Cricket Stadium, Guwahati (night)",
+      "date": "2024-05-19T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "Rajasthan Royals v Kolkata Knight Riders at Barsapara Cricket Stadium, Guwahati (night), T20.",
+      "match_subtitle": "70th Match",
+      "home": {
+        "id": 101757,
+        "name": "Rajasthan Royals",
+        "code": "RAR"
+      },
+      "away": {
+        "id": 101751,
+        "name": "Kolkata Knight Riders",
+        "code": "KKR"
+      }
+    },
+    {
+      "id": 2852631,
+      "series_id": 2002,
+      "venue": "Narendra Modi Stadium, Ahmedabad (night)",
+      "date": "2024-05-21T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "TBC v TBC at Narendra Modi Stadium, Ahmedabad (night), T20.",
+      "match_subtitle": "Qualifier 1",
+      "home": {
+        "id": 300402,
+        "name": "TBC",
+        "code": ""
+      },
+      "away": {
+        "id": 300405,
+        "name": "TBC",
+        "code": ""
+      }
+    },
+    {
+      "id": 2852633,
+      "series_id": 2002,
+      "venue": "Narendra Modi Stadium, Ahmedabad (night)",
+      "date": "2024-05-22T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "TBC v TBC at Narendra Modi Stadium, Ahmedabad (night), T20.",
+      "match_subtitle": "Eliminator",
+      "home": {
+        "id": 300408,
+        "name": "TBC",
+        "code": ""
+      },
+      "away": {
+        "id": 300411,
+        "name": "TBC",
+        "code": ""
+      }
+    },
+    {
+      "id": 2852635,
+      "series_id": 2002,
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai (night)",
+      "date": "2024-05-24T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "TBC v TBC at MA Chidambaram Stadium, Chepauk, Chennai (night), T20.",
+      "match_subtitle": "Qualifier 2",
+      "home": {
+        "id": 300414,
+        "name": "TBC",
+        "code": ""
+      },
+      "away": {
+        "id": 300417,
+        "name": "TBC",
+        "code": ""
+      }
+    },
+    {
+      "id": 2852637,
+      "series_id": 2002,
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai (night)",
+      "date": "2024-05-26T14:00:00+00:00",
+      "status": "Fixture",
+      "result": "",
+      "match_title": "TBC v TBC at MA Chidambaram Stadium, Chepauk, Chennai (night), T20.",
+      "match_subtitle": "Final",
+      "home": {
+        "id": 300420,
+        "name": "TBC",
+        "code": ""
+      },
+      "away": {
+        "id": 300423,
+        "name": "TBC",
+        "code": ""
+      }
+    }
+  ]
+}

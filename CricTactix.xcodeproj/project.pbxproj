@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC2FB3182BEB272200E01CB0 /* matchDetail.json in Resources */ = {isa = PBXBuildFile; fileRef = AC2FB3172BEB272100E01CB0 /* matchDetail.json */; };
+		AC2FB31A2BEB273300E01CB0 /* MatchDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2FB3192BEB273300E01CB0 /* MatchDetailViewModel.swift */; };
+		AC2FB31C2BEB27A000E01CB0 /* MatchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2FB31B2BEB27A000E01CB0 /* MatchResponse.swift */; };
+		AC38902E2BEAB3C00053BFE2 /* MatchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38902D2BEAB3C00053BFE2 /* MatchDetailView.swift */; };
+		AC5881862BE8D6AE00CC10EB /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5881852BE8D6AE00CC10EB /* String+Ext.swift */; };
 		ACD20D612BE5FBE800E07BCA /* CricTactixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD20D602BE5FBE800E07BCA /* CricTactixApp.swift */; };
 		ACD20D632BE5FBE800E07BCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD20D622BE5FBE800E07BCA /* ContentView.swift */; };
 		ACD20D652BE5FBEA00E07BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD20D642BE5FBEA00E07BCA /* Assets.xcassets */; };
 		ACD20D682BE5FBEA00E07BCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD20D672BE5FBEA00E07BCA /* Preview Assets.xcassets */; };
+		ACD20D702BE5FC5000E07BCA /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD20D6F2BE5FC5000E07BCA /* LoaderView.swift */; };
+		ACD20D732BE5FD1F00E07BCA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD20D722BE5FD1F00E07BCA /* HomeView.swift */; };
+		ACD20D772BE5FD6800E07BCA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD20D762BE5FD6800E07BCA /* HomeViewModel.swift */; };
+		ACD20D7A2BE5FF6600E07BCA /* WebServiceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD20D792BE5FF6600E07BCA /* WebServiceWrapper.swift */; };
+		ACD20D7D2BE62F1B00E07BCA /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD20D7C2BE62F1B00E07BCA /* Match.swift */; };
+		ACD20D7F2BE62FC500E07BCA /* matches.json in Resources */ = {isa = PBXBuildFile; fileRef = ACD20D7E2BE62FC500E07BCA /* matches.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC2FB3172BEB272100E01CB0 /* matchDetail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = matchDetail.json; sourceTree = "<group>"; };
+		AC2FB3192BEB273300E01CB0 /* MatchDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailViewModel.swift; sourceTree = "<group>"; };
+		AC2FB31B2BEB27A000E01CB0 /* MatchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResponse.swift; sourceTree = "<group>"; };
+		AC38902D2BEAB3C00053BFE2 /* MatchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailView.swift; sourceTree = "<group>"; };
+		AC5881852BE8D6AE00CC10EB /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		ACD20D5D2BE5FBE800E07BCA /* CricTactix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricTactix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD20D602BE5FBE800E07BCA /* CricTactixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricTactixApp.swift; sourceTree = "<group>"; };
 		ACD20D622BE5FBE800E07BCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACD20D642BE5FBEA00E07BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD20D672BE5FBEA00E07BCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACD20D6F2BE5FC5000E07BCA /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		ACD20D722BE5FD1F00E07BCA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ACD20D762BE5FD6800E07BCA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		ACD20D792BE5FF6600E07BCA /* WebServiceWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceWrapper.swift; sourceTree = "<group>"; };
+		ACD20D7C2BE62F1B00E07BCA /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		ACD20D7E2BE62FC500E07BCA /* matches.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = matches.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +54,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC38902C2BEAB3AC0053BFE2 /* MatchDetail */ = {
+			isa = PBXGroup;
+			children = (
+				AC38902D2BEAB3C00053BFE2 /* MatchDetailView.swift */,
+				AC2FB3192BEB273300E01CB0 /* MatchDetailViewModel.swift */,
+			);
+			path = MatchDetail;
+			sourceTree = "<group>";
+		};
+		AC5881842BE8D6A400CC10EB /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				AC5881852BE8D6AE00CC10EB /* String+Ext.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
 		ACD20D542BE5FBE800E07BCA = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +90,13 @@
 		ACD20D5F2BE5FBE800E07BCA /* CricTactix */ = {
 			isa = PBXGroup;
 			children = (
+				AC5881842BE8D6A400CC10EB /* Ext */,
+				ACD20D7E2BE62FC500E07BCA /* matches.json */,
+				AC2FB3172BEB272100E01CB0 /* matchDetail.json */,
+				ACD20D7B2BE62F1500E07BCA /* Model */,
+				ACD20D782BE5FF5500E07BCA /* WebService */,
+				ACD20D712BE5FD0C00E07BCA /* Utils */,
+				ACD20D6E2BE5FC4100E07BCA /* Views */,
 				ACD20D602BE5FBE800E07BCA /* CricTactixApp.swift */,
 				ACD20D622BE5FBE800E07BCA /* ContentView.swift */,
 				ACD20D642BE5FBEA00E07BCA /* Assets.xcassets */,
@@ -65,6 +111,49 @@
 				ACD20D672BE5FBEA00E07BCA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACD20D6E2BE5FC4100E07BCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC38902C2BEAB3AC0053BFE2 /* MatchDetail */,
+				ACD20D752BE5FD5700E07BCA /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACD20D712BE5FD0C00E07BCA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ACD20D6F2BE5FC5000E07BCA /* LoaderView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ACD20D752BE5FD5700E07BCA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ACD20D722BE5FD1F00E07BCA /* HomeView.swift */,
+				ACD20D762BE5FD6800E07BCA /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ACD20D782BE5FF5500E07BCA /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				ACD20D792BE5FF6600E07BCA /* WebServiceWrapper.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		ACD20D7B2BE62F1500E07BCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACD20D7C2BE62F1B00E07BCA /* Match.swift */,
+				AC2FB31B2BEB27A000E01CB0 /* MatchResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +214,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2FB3182BEB272200E01CB0 /* matchDetail.json in Resources */,
 				ACD20D682BE5FBEA00E07BCA /* Preview Assets.xcassets in Resources */,
+				ACD20D7F2BE62FC500E07BCA /* matches.json in Resources */,
 				ACD20D652BE5FBEA00E07BCA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +229,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACD20D632BE5FBE800E07BCA /* ContentView.swift in Sources */,
+				AC38902E2BEAB3C00053BFE2 /* MatchDetailView.swift in Sources */,
+				ACD20D732BE5FD1F00E07BCA /* HomeView.swift in Sources */,
+				AC2FB31A2BEB273300E01CB0 /* MatchDetailViewModel.swift in Sources */,
+				AC2FB31C2BEB27A000E01CB0 /* MatchResponse.swift in Sources */,
 				ACD20D612BE5FBE800E07BCA /* CricTactixApp.swift in Sources */,
+				AC5881862BE8D6AE00CC10EB /* String+Ext.swift in Sources */,
+				ACD20D7D2BE62F1B00E07BCA /* Match.swift in Sources */,
+				ACD20D772BE5FD6800E07BCA /* HomeViewModel.swift in Sources */,
+				ACD20D7A2BE5FF6600E07BCA /* WebServiceWrapper.swift in Sources */,
+				ACD20D702BE5FC5000E07BCA /* LoaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +377,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +387,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CricTactix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,8 +409,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +419,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CricTactix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
