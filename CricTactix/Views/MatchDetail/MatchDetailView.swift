@@ -31,8 +31,8 @@ struct MatchDetailView: View {
                         Text("Venue :  \(fixture.venue)").foregroundColor(.secondary).font(.subheadline).padding(.top,12)
                         Text("Match Date : \(fixture.startDate.toDate()?.toString() ?? "")").foregroundColor(.secondary).font(.subheadline)
                         if let liveDetail = viewModel.liveDetail{
-                            Text("Toss : \(liveDetail.matchSummary.toss )").font(.caption2)
-                            Text(liveDetail.matchSummary.status).foregroundColor(.red).font(.headline)
+                            Text("Toss : \(liveDetail.matchSummary.toss.orEmpty() )").font(.caption2)
+                            Text(liveDetail.matchSummary.status.orEmpty()).foregroundColor(.red).font(.headline)
                         }
                     }.padding().background( // notice the change to parentheses
                         GeometryReader{ geometry in
@@ -45,8 +45,8 @@ struct MatchDetailView: View {
                 Text("ScoreCard").padding(.vertical,20).font(.title.weight(.bold)).pickerStyle(.segmented)
                 
                 Picker("", selection: $teamSelection){
-                    Text(viewModel.teamA?.name ?? "").tag(0)
-                    Text(viewModel.teamB?.name ?? "").tag(1)
+                    Text(viewModel.fixture?.home.name ?? "").tag(0)
+                    Text(viewModel.fixture?.away.name ?? "").tag(1)
                 }.pickerStyle(.segmented)
                 
                 ScoreCardHeaderView()
@@ -86,7 +86,7 @@ struct MatchDetailView: View {
                 FollOfWicketView(follOfWicket: viewModel.scoreCard?.fow ?? "")
             }.padding().navigationTitle("Match Info")
         }.onAppear{
-            viewModel.getScoreCard()
+            viewModel.getScoreCard(match?.id ?? 0)
         }.onChange(of: teamSelection, perform: viewModel.onTeamSelect(_:))
     }
 }
@@ -232,5 +232,10 @@ struct ScoreCardViewBowler: View {
 #Preview {
     NavigationView{
         MatchDetailView()
+    }
+}
+extension Optional where Wrapped == String {
+    func orEmpty() -> String {
+        return self ?? ""
     }
 }

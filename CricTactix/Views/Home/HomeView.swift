@@ -43,18 +43,28 @@ struct HomeView: View {
                     }
                     .listStyle(.plain)
                 }
+                .navigationBarTitleDisplayMode(.inline).navigationTitle("Cricket")
+                .toolbar(content: {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        NavigationLink {
+                            Text("Profile")
+                        } label: {
+                            Image(systemName: "person.crop.circle.fill")
+                        }
+                    }
+                })
             }
-        }.navigationTitle("Cricket")
-            .onChange(of: matchType, perform: viewModel.updateMatchList(_:))
-            .onAppear{
-                viewModel.getScheduledMatchList()
-            }
+        }
+        .onChange(of: matchType, perform: viewModel.updateMatchList(_:))
+        .onAppear{
+            viewModel.getScheduledMatchList()
+        }
     }
     
 }
 struct MatchInfo : View {
     var match : Match
-    @State var cardColor : Color = .red
+    @State var cardColor : Color = .white
     var body: some View {
         ZStack{
             RoundedRectangle(cornerRadius: 25.0).fill(cardColor)
@@ -97,8 +107,11 @@ struct TeamView: View {
     var name : String
     var imageName : String
     var body: some View {
+        let imageTeam = UIImage(named: imageName) ?? UIImage(named: "placeholder")!
+            
         VStack(alignment : .center){
-            Image(imageName).resizable()
+            Image(uiImage: imageTeam)
+            .resizable()
                 .frame(width: 80,height:80)
                 .clipShape(Circle())
             Text(name).multilineTextAlignment(.center)

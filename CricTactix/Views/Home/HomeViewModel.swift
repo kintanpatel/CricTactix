@@ -15,18 +15,19 @@ class HomeViewModel: ObservableObject {
     
     func getScheduledMatchList(){
         isLoading = true
-        if let data = loadJson(){
-            matchListCopy = data
-            updateMatchList(.upcoming)
-            self.isLoading = false
-        }
-    
-        /*let urlString = "https://cricket-live-data.p.rapidapi.com/fixtures"
+        //        if let data = loadJson(){
+        //            matchListCopy = data
+        //            updateMatchList(.upcoming)
+        //            self.isLoading = false
+        //        }
+        
+//        let urlString = "https://cricket-live-data.p.rapidapi.com/fixtures"
+        let urlString = "https://cricket-live-data.p.rapidapi.com/fixtures-by-series/2002"
         
         guard let url = URL(string: urlString) else{
             fatalError("invalid request URL")
         }
-       
+        
         
         WebServiceWrapper.shared.jsonGetTask(url: url) { (response) in
             switch response{
@@ -41,13 +42,19 @@ class HomeViewModel: ObservableObject {
                 self.isLoading = false
                 print(json)
                 //6 parsing the Json response
+                // Decode JSON data
+                
                 if let jsonData = try? JSONSerialization.data(withJSONObject: json){
-                    let responseData = try! JSONDecoder().decode([MatchList].self, from: jsonData)
-                    self.matchList = responseData
+                    let responseData = try! JSONDecoder().decode([String: [Match]].self, from: jsonData)
+                    // Access the matches array
+                    if let matches = responseData["results"] {
+                        self.matchListCopy = matches
+                        self.updateMatchList(.upcoming)
+                    }
                     self.isLoading = false
                 }
             }
-        }*/
+        }
     }
     
     func updateMatchList(_ newValue: MatchType) {
@@ -89,7 +96,7 @@ class HomeViewModel: ObservableObject {
         return nil
     }
 }
- 
+
 
 enum MatchType : CaseIterable {
     case live

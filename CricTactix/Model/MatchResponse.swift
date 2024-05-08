@@ -12,7 +12,7 @@ struct MatchResponse: Codable {
 
 struct Results: Codable {
     let fixture: Fixture
-    let liveDetails: LiveDetails
+    let liveDetails: LiveDetails?
     
     enum CodingKeys: String, CodingKey {
         case fixture
@@ -24,14 +24,13 @@ struct Fixture: Codable {
     let dates: [DateDetail]
     let endDate: String
     let home: Team
-    let id: Int
     let matchTitle: String
     let seriesID: Int
     let startDate: String
     let venue: String
     
     enum CodingKeys: String, CodingKey {
-        case away, dates, endDate = "end_date", home, id, matchTitle = "match_title", seriesID = "series_id", startDate = "start_date", venue
+        case away, dates, endDate = "end_date", home, matchTitle = "match_title", seriesID = "series_id", startDate = "start_date", venue
     }
 }
  
@@ -48,15 +47,15 @@ struct LiveDetails: Codable {
     let officials: Officials
     let scorecard: [ScoreCard]
 //    let stats: Stats
-    let teamsheets: [TeamSheet]?
+//    let teamsheets: [TeamSheet]?
     
     enum CodingKeys: String, CodingKey {
         case matchSummary = "match_summary"
-        case officials, scorecard, teamsheets
+        case officials, scorecard
     }
 }
 struct MatchSummary: Codable {
-    let awayScores, homeScores, inPlay, result, toss,status: String
+    let awayScores, homeScores, inPlay, result, toss,status: String?
     
     enum CodingKeys: String, CodingKey {
         case awayScores = "away_scores"
@@ -100,7 +99,6 @@ struct ScoreCard: Codable {
 struct BattingDetail: Codable {
     let balls, batOrder, fours: Int
     let howOut: String
-    let id: Int
     let minutes: String
     let playerID: Int
     let playerName: String
@@ -110,7 +108,7 @@ struct BattingDetail: Codable {
     enum CodingKeys: String, CodingKey {
         case balls, batOrder = "bat_order", fours
         case howOut = "how_out"
-        case id, minutes
+        case minutes
         case playerID = "player_id"
         case playerName = "player_name"
         case runs, sixes
@@ -121,7 +119,7 @@ struct BattingDetail: Codable {
 struct BowlingDetail: Codable {
     let dotBalls: Int
     let economy, extras: String
-    let fours, id, maidens: Int
+    let fours, maidens: Int
     let overs: String
     let playerID: Int
     let playerName: String
@@ -129,7 +127,7 @@ struct BowlingDetail: Codable {
     
     enum CodingKeys: String, CodingKey {
         case dotBalls = "dot_balls"
-        case economy, extras, fours, id, maidens, overs
+        case economy, extras, fours, maidens, overs
         case playerID = "player_id"
         case playerName = "player_name"
         case runsConceded = "runs_conceded"
@@ -138,11 +136,10 @@ struct BowlingDetail: Codable {
 }
 
 struct StillToBat: Codable {
-    let id, playerID: Int
+    let  playerID: Int
     let playerName: String
     
     enum CodingKeys: String, CodingKey {
-        case id
         case playerID = "player_id"
         case playerName = "player_name"
     }
