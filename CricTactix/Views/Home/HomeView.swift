@@ -6,61 +6,107 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct HomeView: View {
     @StateObject var viewModel : HomeViewModel = HomeViewModel()
     @State private var matchType: MatchType = .live // Default match type is live
     
+    @State var isOpen = false
+    @State var showProfile = false
+    @State var showTeams = false
+     
     
     var body: some View {
-        NavigationView{
-            if(viewModel.isLoading){
-                LoaderView()
-            }else{
-                VStack{
-                    Picker("Match Type", selection: $matchType) {
-                        ForEach(MatchType.allCases,id : \.self){ matchType in
-                            Text(matchType.statusName)
+        DrawerView(isOpen: $isOpen, main: {
+            NavigationView{
+                if(viewModel.isLoading){
+                    LoaderView()
+                }else{
+                    VStack{
+                        
+                        //Navigate onMenu Click
+                        NavigationLink(destination: ProfileSetting(), isActive: $showProfile) { EmptyView() }
+                        NavigationLink(destination: TeamsScreen(), isActive: $showTeams) { EmptyView() }
+                        
+                        //Home Content
+                        
+                        Picker("Match Type", selection: $matchType) {
+                            ForEach(MatchType.allCases,id : \.self){ matchType in
+                                Text(matchType.statusName)
+                            }
                         }
-                    }
-                    .pickerStyle(.segmented).padding(.horizontal,14)
-                    List{
-                        if(viewModel.matchList.isEmpty){
-                            Text("No \(matchType.statusName) Match Found")
-                        }else{
-                            ForEach(viewModel.matchList,id: \.id){match in
-                                
-                                //VStack
-                                LazyVStack{
-                                    ZStack {
-                                        MatchInfo(match: match)
-                                        NavigationLink(destination: MatchDetailView(match: match)) {
-                                        }.buttonStyle(PlainButtonStyle()).frame(width:0).opacity(0)
+                        .pickerStyle(.segmented).padding(.horizontal,14)
+                        List{
+                            if(viewModel.matchList.isEmpty){
+                                Text("No \(matchType.statusName) Match Found")
+                            }else{
+                                ForEach(viewModel.matchList,id: \.id){match in
+                                    
+                                    //VStack
+                                    LazyVStack{
+                                        ZStack {
+                                            MatchInfo(match: match)
+                                            NavigationLink(destination: MatchDetailView(match: match)) {
+                                            }.buttonStyle(PlainButtonStyle()).frame(width:0).opacity(0)
+                                        }
                                     }
                                 }
                             }
                         }
+                        .listStyle(.plain)
                     }
-                    .listStyle(.plain)
-                }
-                .navigationBarTitleDisplayMode(.inline).navigationTitle("Cricket")
-                .toolbar(content: {
-                    ToolbarItem(placement: .topBarTrailing) {
-                        NavigationLink {
-                            Text("Profile")
-                        } label: {
-                            Image(systemName: "person.crop.circle.fill")
+                    .navigationBarTitleDisplayMode(.inline).navigationTitle("Cricket")
+                    .toolbar(content: {
+                        ToolbarItem(placement: .topBarLeading) {
+                            Button {
+                                withAnimation {
+                                    isOpen.toggle()
+                                }
+                                
+                            } label: {
+                                Image("ic_menu").resizable().frame(width: 30, height: 30)
+                            }
                         }
-                    }
-                })
+                    })
+                }
             }
-        }
+        }, drawer: {
+            SideMenuView(presentSideMenu: $isOpen){sideMenuRowType in
+                print(sideMenuRowType.title)
+                
+                if(sideMenuRowType == .profile){
+                    showProfile = true
+                }else if (sideMenuRowType == .teams){
+                    showTeams = true
+                }else if (sideMenuRowType == .rate){
+                    rateApp()
+                }else if (sideMenuRowType == .share){
+                    shareApp()
+                }
+            }.ignoresSafeArea()
+            
+        })
         .onChange(of: matchType, perform: viewModel.updateMatchList(_:))
         .onAppear{
             viewModel.getScheduledMatchList()
         }
     }
-    
+    // Function to rate the app
+    func rateApp() {
+        // Implement app rating functionality
+        if let scene = UIApplication.shared.windows.first?.windowScene {
+                    SKStoreReviewController.requestReview(in: scene)
+                }
+    }
+    // Function to share the app
+    func shareApp() {
+        // Implement sharing functionality
+        let appStoreLink = "https://apps.apple.com/app/idYOUR_APP_ID"
+              let activityViewController = UIActivityViewController(activityItems: [appStoreLink], applicationActivities: nil)
+              UIApplication.shared.windows.first?.rootViewController?.present(activityViewController, animated: true, completion: nil)
+         
+    }
 }
 struct MatchInfo : View {
     var match : Match
@@ -108,10 +154,10 @@ struct TeamView: View {
     var imageName : String
     var body: some View {
         let imageTeam = UIImage(named: imageName) ?? UIImage(named: "placeholder")!
-            
+        
         VStack(alignment : .center){
             Image(uiImage: imageTeam)
-            .resizable()
+                .resizable()
                 .frame(width: 80,height:80)
                 .clipShape(Circle())
             Text(name).multilineTextAlignment(.center)

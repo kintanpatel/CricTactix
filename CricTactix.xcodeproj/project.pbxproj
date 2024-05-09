@@ -12,6 +12,11 @@
 		AC2FB31C2BEB27A000E01CB0 /* MatchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2FB31B2BEB27A000E01CB0 /* MatchResponse.swift */; };
 		AC38902E2BEAB3C00053BFE2 /* MatchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38902D2BEAB3C00053BFE2 /* MatchDetailView.swift */; };
 		AC5881862BE8D6AE00CC10EB /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5881852BE8D6AE00CC10EB /* String+Ext.swift */; };
+		ACCA0D442BEC79AC00FFB90F /* ImagePickerManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA0D432BEC79AC00FFB90F /* ImagePickerManger.swift */; };
+		ACCA0D472BEC7A0600FFB90F /* ProfileSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA0D462BEC7A0600FFB90F /* ProfileSetting.swift */; };
+		ACCA0D4A2BEC882000FFB90F /* TeamsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA0D492BEC882000FFB90F /* TeamsScreen.swift */; };
+		ACCA0D4C2BEC883300FFB90F /* TeamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA0D4B2BEC883300FFB90F /* TeamsViewModel.swift */; };
+		ACCA0D4E2BEC8E5100FFB90F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCA0D4D2BEC8E5100FFB90F /* Launch Screen.storyboard */; };
 		ACD20D612BE5FBE800E07BCA /* CricTactixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD20D602BE5FBE800E07BCA /* CricTactixApp.swift */; };
 		ACD20D632BE5FBE800E07BCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD20D622BE5FBE800E07BCA /* ContentView.swift */; };
 		ACD20D652BE5FBEA00E07BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD20D642BE5FBEA00E07BCA /* Assets.xcassets */; };
@@ -22,6 +27,8 @@
 		ACD20D7A2BE5FF6600E07BCA /* WebServiceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD20D792BE5FF6600E07BCA /* WebServiceWrapper.swift */; };
 		ACD20D7D2BE62F1B00E07BCA /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD20D7C2BE62F1B00E07BCA /* Match.swift */; };
 		ACD20D7F2BE62FC500E07BCA /* matches.json in Resources */ = {isa = PBXBuildFile; fileRef = ACD20D7E2BE62FC500E07BCA /* matches.json */; };
+		ACD65C782BEC01A800B7449E /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD65C772BEC01A800B7449E /* DrawerView.swift */; };
+		ACD65C7A2BEC067600B7449E /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD65C792BEC067600B7449E /* SideMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +37,11 @@
 		AC2FB31B2BEB27A000E01CB0 /* MatchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResponse.swift; sourceTree = "<group>"; };
 		AC38902D2BEAB3C00053BFE2 /* MatchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailView.swift; sourceTree = "<group>"; };
 		AC5881852BE8D6AE00CC10EB /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		ACCA0D432BEC79AC00FFB90F /* ImagePickerManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerManger.swift; sourceTree = "<group>"; };
+		ACCA0D462BEC7A0600FFB90F /* ProfileSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetting.swift; sourceTree = "<group>"; };
+		ACCA0D492BEC882000FFB90F /* TeamsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsScreen.swift; sourceTree = "<group>"; };
+		ACCA0D4B2BEC883300FFB90F /* TeamsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewModel.swift; sourceTree = "<group>"; };
+		ACCA0D4D2BEC8E5100FFB90F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		ACD20D5D2BE5FBE800E07BCA /* CricTactix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricTactix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD20D602BE5FBE800E07BCA /* CricTactixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricTactixApp.swift; sourceTree = "<group>"; };
 		ACD20D622BE5FBE800E07BCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +53,8 @@
 		ACD20D792BE5FF6600E07BCA /* WebServiceWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceWrapper.swift; sourceTree = "<group>"; };
 		ACD20D7C2BE62F1B00E07BCA /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		ACD20D7E2BE62FC500E07BCA /* matches.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = matches.json; sourceTree = "<group>"; };
+		ACD65C772BEC01A800B7449E /* DrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
+		ACD65C792BEC067600B7449E /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +83,23 @@
 				AC5881852BE8D6AE00CC10EB /* String+Ext.swift */,
 			);
 			path = Ext;
+			sourceTree = "<group>";
+		};
+		ACCA0D452BEC79F600FFB90F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				ACCA0D462BEC7A0600FFB90F /* ProfileSetting.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		ACCA0D482BEC880900FFB90F /* Fav */ = {
+			isa = PBXGroup;
+			children = (
+				ACCA0D492BEC882000FFB90F /* TeamsScreen.swift */,
+				ACCA0D4B2BEC883300FFB90F /* TeamsViewModel.swift */,
+			);
+			path = Fav;
 			sourceTree = "<group>";
 		};
 		ACD20D542BE5FBE800E07BCA = {
@@ -101,6 +132,7 @@
 				ACD20D622BE5FBE800E07BCA /* ContentView.swift */,
 				ACD20D642BE5FBEA00E07BCA /* Assets.xcassets */,
 				ACD20D662BE5FBEA00E07BCA /* Preview Content */,
+				ACCA0D4D2BEC8E5100FFB90F /* Launch Screen.storyboard */,
 			);
 			path = CricTactix;
 			sourceTree = "<group>";
@@ -116,6 +148,8 @@
 		ACD20D6E2BE5FC4100E07BCA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ACCA0D482BEC880900FFB90F /* Fav */,
+				ACCA0D452BEC79F600FFB90F /* Profile */,
 				AC38902C2BEAB3AC0053BFE2 /* MatchDetail */,
 				ACD20D752BE5FD5700E07BCA /* Home */,
 			);
@@ -126,6 +160,9 @@
 			isa = PBXGroup;
 			children = (
 				ACD20D6F2BE5FC5000E07BCA /* LoaderView.swift */,
+				ACD65C772BEC01A800B7449E /* DrawerView.swift */,
+				ACD65C792BEC067600B7449E /* SideMenuView.swift */,
+				ACCA0D432BEC79AC00FFB90F /* ImagePickerManger.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -217,6 +254,7 @@
 				AC2FB3182BEB272200E01CB0 /* matchDetail.json in Resources */,
 				ACD20D682BE5FBEA00E07BCA /* Preview Assets.xcassets in Resources */,
 				ACD20D7F2BE62FC500E07BCA /* matches.json in Resources */,
+				ACCA0D4E2BEC8E5100FFB90F /* Launch Screen.storyboard in Resources */,
 				ACD20D652BE5FBEA00E07BCA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,14 +269,20 @@
 				ACD20D632BE5FBE800E07BCA /* ContentView.swift in Sources */,
 				AC38902E2BEAB3C00053BFE2 /* MatchDetailView.swift in Sources */,
 				ACD20D732BE5FD1F00E07BCA /* HomeView.swift in Sources */,
+				ACD65C7A2BEC067600B7449E /* SideMenuView.swift in Sources */,
+				ACD65C782BEC01A800B7449E /* DrawerView.swift in Sources */,
+				ACCA0D442BEC79AC00FFB90F /* ImagePickerManger.swift in Sources */,
 				AC2FB31A2BEB273300E01CB0 /* MatchDetailViewModel.swift in Sources */,
 				AC2FB31C2BEB27A000E01CB0 /* MatchResponse.swift in Sources */,
 				ACD20D612BE5FBE800E07BCA /* CricTactixApp.swift in Sources */,
 				AC5881862BE8D6AE00CC10EB /* String+Ext.swift in Sources */,
 				ACD20D7D2BE62F1B00E07BCA /* Match.swift in Sources */,
 				ACD20D772BE5FD6800E07BCA /* HomeViewModel.swift in Sources */,
+				ACCA0D472BEC7A0600FFB90F /* ProfileSetting.swift in Sources */,
+				ACCA0D4C2BEC883300FFB90F /* TeamsViewModel.swift in Sources */,
 				ACD20D7A2BE5FF6600E07BCA /* WebServiceWrapper.swift in Sources */,
 				ACD20D702BE5FC5000E07BCA /* LoaderView.swift in Sources */,
+				ACCA0D4A2BEC882000FFB90F /* TeamsScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,9 +418,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CricTactix/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses your photo library to add Profile Photo images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -406,9 +452,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CricTactix/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses your photo library to add Profile Photo images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
