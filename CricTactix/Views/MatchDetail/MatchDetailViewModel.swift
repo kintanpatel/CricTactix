@@ -31,10 +31,10 @@ class MatchDetailViewModel: ObservableObject {
     }
     
     func getScoreCard(_ matchId : Int){
-        if let data = loadJson(){
+        /*if let data = loadJson(){
             processData(data)
         }
-        return
+        return*/
         
         let urlString = "https://cricket-live-data.p.rapidapi.com/match/\(matchId)"
         

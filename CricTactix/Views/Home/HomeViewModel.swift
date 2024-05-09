@@ -13,16 +13,20 @@ class HomeViewModel: ObservableObject {
     @Published var matchList:[Match] = []
     var matchListCopy:[Match] = []
     
+    
+    
     func getScheduledMatchList(){
         isLoading = true
-        if let data = loadJson(){
-            matchListCopy = data
-            updateMatchList(.upcoming)
-            self.isLoading = false
-        }
-        return
+//       if let data = loadJson(){
+//            matchListCopy = data
+//            updateMatchList(.upcoming)
+//           DispatchQueue.main.asyncAfter(deadline: .now() + 1.0, execute: {
+//               self.isLoading = false
+//           })
+//        }
+//        return
         
-//        let urlString = "https://cricket-live-data.p.rapidapi.com/fixtures"
+
         let urlString = "https://cricket-live-data.p.rapidapi.com/fixtures-by-series/2002"
         
         guard let url = URL(string: urlString) else{
@@ -40,7 +44,6 @@ class HomeViewModel: ObservableObject {
                 print(apiError.debugDescription)
                 
             case .Success(let json):
-                self.isLoading = false
                 print(json)
                 //6 parsing the Json response
                 // Decode JSON data
@@ -59,7 +62,6 @@ class HomeViewModel: ObservableObject {
     }
     
     func updateMatchList(_ newValue: MatchType) {
-        isLoading = true
         // Update the list based on the selected match type
         switch newValue {
         case .live: // Live matches
@@ -69,7 +71,6 @@ class HomeViewModel: ObservableObject {
         case .completed: // Completed matches
             matchList = matchListCopy.filter { $0.status == "Complete" }
         }
-        isLoading = false
     }
     
     private func loadJson() -> [Match]? {

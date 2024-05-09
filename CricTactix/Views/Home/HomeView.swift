@@ -11,87 +11,87 @@ import StoreKit
 @available(iOS 14.0, macOS 10.16, *)
 struct HomeView: View {
     @StateObject var viewModel : HomeViewModel = HomeViewModel()
-    @State private var matchType: MatchType = .live // Default match type is live
+    @State private var matchType: MatchType = .upcoming // Default match type is live
     
     @State var isOpen = false
     @State var showProfile = false
     @State var showTeams = false
-     
     
     var body: some View {
-        DrawerView(isOpen: $isOpen, main: {
-            NavigationView{
-                if(viewModel.isLoading){
-                    LoaderView()
-                }else{
-                    VStack{
-                        
-                        //Navigate onMenu Click
-                        NavigationLink(destination: ProfileSetting(), isActive: $showProfile) { EmptyView() }
-                        NavigationLink(destination: TeamsScreen(), isActive: $showTeams) { EmptyView() }
-                        
-                        //Home Content
-                        
-                        Picker("Match Type", selection: $matchType) {
-                            ForEach(MatchType.allCases,id : \.self){ matchType in
-                                Text(matchType.statusName)
-                            }
-                        }
-                        .pickerStyle(.segmented).padding(.horizontal,14)
-                        List{
-                            if(viewModel.matchList.isEmpty){
-                                Text("No \(matchType.statusName) Match Found")
-                            }else{
-                                ForEach(viewModel.matchList,id: \.id){match in
-                                    
-                                    //VStack
-                                    LazyVStack{
-                                        ZStack {
-                                            MatchInfo(match: match)
-                                            NavigationLink(destination: MatchDetailView(match: match)) {
-                                            }.buttonStyle(PlainButtonStyle()).frame(width:0).opacity(0)
+        ZStack{
+            if(viewModel.isLoading){
+                LoaderView()
+            }else{
+                DrawerView(isOpen: $isOpen, main: {
+                    NavigationView{
+                            VStack{
+                                //Navigate onMenu Click
+                                NavigationLink(destination: ProfileSetting(), isActive: $showProfile) { EmptyView() }
+                                NavigationLink(destination: TeamsScreen(), isActive: $showTeams) { EmptyView() }
+                                
+                                //Home Content
+                                
+                                Picker("Match Type", selection: $matchType) {
+                                    ForEach(MatchType.allCases,id : \.self){ matchType in
+                                        Text(matchType.statusName)
+                                    }
+                                }
+                                .pickerStyle(.segmented).padding(.horizontal,14)
+                                List{
+                                    if(viewModel.matchList.isEmpty){
+                                        Text("No \(matchType.statusName) Match Found")
+                                    }else{
+                                        ForEach(viewModel.matchList,id: \.id){match in
+                                            
+                                            //VStack
+                                            LazyVStack{
+                                                ZStack {
+                                                    MatchInfo(match: match)
+                                                    NavigationLink(destination: MatchDetailView(match: match)) {
+                                                    }.buttonStyle(PlainButtonStyle()).frame(width:0).opacity(0)
+                                                }
+                                            }
                                         }
                                     }
                                 }
+                                .listStyle(.plain)
                             }
-                        }
-                        .listStyle(.plain)
-                    }
-                    .navigationBarTitleDisplayMode(.inline).navigationTitle("Cricket")
-                    .toolbar(content: {
-                        ToolbarItem(placement: .topBarLeading) {
-                            Button {
-                                withAnimation {
-                                    isOpen.toggle()
+                            .navigationBarTitleDisplayMode(.inline).navigationTitle("Cricket")
+                            .toolbar(content: {
+                                ToolbarItem(placement: .topBarLeading) {
+                                    Button {
+                                        withAnimation {
+                                            isOpen.toggle()
+                                        }
+                                        
+                                    } label: {
+                                        Image("ic_menu").resizable().frame(width: 30, height: 30)
+                                    }
                                 }
-                                
-                            } label: {
-                                Image("ic_menu").resizable().frame(width: 30, height: 30)
-                            }
+                            })
+                        
+                    }
+                }, drawer: {
+                    SideMenuView(presentSideMenu: $isOpen){sideMenuRowType in
+                        print(sideMenuRowType.title)
+                        
+                        if(sideMenuRowType == .profile){
+                            showProfile = true
+                        }else if (sideMenuRowType == .teams){
+                            showTeams = true
+                        }else if (sideMenuRowType == .rate){
+                            rateApp()
+                        }else if (sideMenuRowType == .share){
+                            shareApp()
                         }
-                    })
-                }
+                    }.ignoresSafeArea()
+                })
             }
-        }, drawer: {
-            SideMenuView(presentSideMenu: $isOpen){sideMenuRowType in
-                print(sideMenuRowType.title)
-                
-                if(sideMenuRowType == .profile){
-                    showProfile = true
-                }else if (sideMenuRowType == .teams){
-                    showTeams = true
-                }else if (sideMenuRowType == .rate){
-                    rateApp()
-                }else if (sideMenuRowType == .share){
-                    shareApp()
-                }
-            }.ignoresSafeArea()
-            
-        })
-        .onChange(of: matchType, perform: viewModel.updateMatchList(_:))
-        .onAppear{
+        }.onAppear{
             viewModel.getScheduledMatchList()
         }
+        .onChange(of: matchType, perform: viewModel.updateMatchList(_:))
+        
     }
     // Function to rate the app
     func rateApp() {
