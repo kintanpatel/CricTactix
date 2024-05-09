@@ -8,19 +8,18 @@
 import Foundation
 import SwiftUI
 
+@available(iOS 14.0, macOS 10.16, *)
 struct SideMenuView: View {
     @Binding var presentSideMenu: Bool
+    @AppStorage("profileImageData") private var profileImageData: Data?
+    @AppStorage("name")  var name: String = "Your Name"
+    @AppStorage("occupation") var occupation: String = "Occupation"
+    
     var onDrawerItemClick : (SideMenuRowType) -> ()
     var body: some View {
-        HStack {
-            ZStack{
-                Rectangle()
-                    .fill(.white)
-                    .frame(width: 270)
-                    .shadow(color: .purple.opacity(0.1), radius: 5, x: 0, y: 3)
-                
+        VStack {
                 VStack(alignment: .leading, spacing: 0) {
-                    ProfileImageView()
+                    ProfileImageView(profileImageData,name,occupation)
                         .frame(height: 140)
                         .padding(.bottom, 30)
                     
@@ -37,28 +36,22 @@ struct SideMenuView: View {
                 }
                 .padding(.top, 100)
                 .frame(width: 270)
-                .background(
-                    Color.white
-                )
-            }
-            
             
             Spacer()
+            
         }.background( // notice the change to parentheses
-            GeometryReader
-            { geometry in
-                Color.clear
-                    
+            GeometryReader{ geometry in
+                Color.white
+                
             }
         )
-        
     }
     
-    func ProfileImageView() -> some View{
+    func ProfileImageView(_ profileImageData: Data?,_ name : String , _ occupation : String) -> some View{
         VStack(alignment: .center){
             HStack{
                 Spacer()
-                Image("ic_user")
+                Image(uiImage: profileImageData == nil ? UIImage(named: "ic_user")! : UIImage(data: profileImageData!)!)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 100, height: 100)
@@ -70,11 +63,11 @@ struct SideMenuView: View {
                 Spacer()
             }
             
-            Text("Kintan Patel")
+            Text(name)
                 .font(.system(size: 18, weight: .bold))
                 .foregroundColor(.black)
             
-            Text("Mobile Developer")
+            Text(occupation)
                 .font(.system(size: 14, weight: .semibold))
                 .foregroundColor(.black.opacity(0.5))
         }
@@ -85,31 +78,31 @@ struct SideMenuView: View {
     func RowView(imageName: String, title: String, hideDivider: Bool = false, action: @escaping (()->())) -> some View{
         
         return Button{
-               action()
-           } label: {
-               VStack(alignment: .leading){
-                   HStack(spacing: 20){
-                       Rectangle()
-                           .fill(.white)
-                           .frame(width: 5)
-                       
-                       ZStack{
-                           Image(imageName)
-                               .resizable()
-                               .frame(width: 26, height: 26)
-                       }
-                       .frame(width: 30, height: 30)
-                       Text(title)
-                           .font(.system(size: 16, weight: .regular))
-                           .foregroundColor(.black)
-                       Spacer()
-                   }
-               }
-           }
-           .frame(height: 50)
-       }
-   }
- 
+            action()
+        } label: {
+            VStack(alignment: .leading){
+                HStack(spacing: 20){
+                    Rectangle()
+                        .fill(.white)
+                        .frame(width: 5)
+                    
+                    ZStack{
+                        Image(imageName)
+                            .resizable()
+                            .frame(width: 26, height: 26)
+                    }
+                    .frame(width: 30, height: 30)
+                    Text(title)
+                        .font(.system(size: 16, weight: .regular))
+                        .foregroundColor(.black)
+                    Spacer()
+                }
+            }
+        }
+        .frame(height: 50)
+    }
+}
+
 enum SideMenuRowType: Int, CaseIterable{
     case home = 0
     case teams

@@ -12,7 +12,7 @@ import SwiftUI
 @available(iOS 14.0, macOS 10.16, *)
 struct ProfileSetting: View {
     @AppStorage("name")  var name: String = ""
-    @AppStorage("occupation") var animal: String = ""
+    @AppStorage("occupation") var occupation: String = ""
     @AppStorage("email") var email: String = ""
     @AppStorage("autoRefresh") var refresh: Bool = false
     
@@ -24,7 +24,7 @@ struct ProfileSetting: View {
             Form {
                 Section(header: Text("About")) {
                     TextField("Name", text: $name)
-                    TextField("Occupation", text: $animal)
+                    TextField("Occupation", text: $occupation)
                         .keyboardType(.default) // Set keyboard type to number pad for age
                     TextField("Email", text: $email)
                         .keyboardType(.emailAddress) // Set keyboard type to email address for email

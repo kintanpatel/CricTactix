@@ -35,7 +35,7 @@ struct DrawerView<MainContent: View, DrawerContent: View>: View {
                     main()
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                         // 3
-                        .overlay(isOpen ? mainOverlay : nil).ignoresSafeArea()
+                        .overlay(isOpen ? mainOverlay : nil).expandViewOutOfSafeArea()
                     drawer()
                         .frame(minWidth: drawerWidth, idealWidth: drawerWidth,
                                maxWidth: drawerWidth, maxHeight: .infinity)

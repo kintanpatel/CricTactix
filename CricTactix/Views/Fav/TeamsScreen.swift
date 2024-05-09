@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+@available(iOS 14.0, macOS 10.16, *)
 struct TeamsScreen: View {
     @StateObject var viewModel : TeamsViewModel = TeamsViewModel()
     var body: some View {
@@ -31,7 +31,7 @@ struct TeamsScreen: View {
         }
     }
 }
-
+@available(iOS 14.0, macOS 10.16, *)
 #Preview {
     NavigationView(content: {
         TeamsScreen()

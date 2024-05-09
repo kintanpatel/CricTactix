@@ -43,17 +43,17 @@ extension Array where Element: UIColor {
         return UIColor(red: red / count, green: green / count, blue: blue / count, alpha: alpha / count)
     }
 }
-
-extension Color {
-    var isDark: Bool {
-        var red: CGFloat = 0, green: CGFloat = 0, blue: CGFloat = 0, alpha: CGFloat = 0
-        UIColor(self).getRed(&red, green: &green, blue: &blue, alpha: &alpha)
-        let lum = 0.2126 * red + 0.7152 * green + 0.0722 * blue
-        return lum < 0.5
+ 
+public extension View {
+    @ViewBuilder
+    func expandViewOutOfSafeArea(_ edges: Edge.Set = .all) -> some View {
+        if #available(iOS 14, *) {
+            self.ignoresSafeArea(edges: edges)
+        } else {
+            self.edgesIgnoringSafeArea(edges) // deprecated for iOS 13.0–15.2, look upper
+        }
     }
 }
-
-
 extension UIImage {
     func dominantColors() -> [UIColor] {
         guard let cgImage = self.cgImage else { return [] }

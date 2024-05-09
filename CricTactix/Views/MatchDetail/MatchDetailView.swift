@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 14.0, macOS 10.16, *)
 struct MatchDetailView: View {
     var match : Match?
     @State var teamSelection: Int = 0
@@ -228,7 +229,7 @@ struct ScoreCardViewBowler: View {
     }
 }
 
-
+@available(iOS 14.0, macOS 10.16, *)
 #Preview {
     NavigationView{
         MatchDetailView()

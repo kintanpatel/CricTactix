@@ -8,6 +8,7 @@
 import SwiftUI
 import StoreKit
 
+@available(iOS 14.0, macOS 10.16, *)
 struct HomeView: View {
     @StateObject var viewModel : HomeViewModel = HomeViewModel()
     @State private var matchType: MatchType = .live // Default match type is live
@@ -108,6 +109,8 @@ struct HomeView: View {
          
     }
 }
+
+@available(iOS 14.0, macOS 10.16, *)
 struct MatchInfo : View {
     var match : Match
     @State var cardColor : Color = .white
@@ -168,7 +171,7 @@ struct TeamView: View {
 //#Preview {
 //    TeamView(name: "Gujarat",imageName: "161268")
 //}
-
+@available(iOS 14.0, macOS 10.16, *)
 #Preview {
     HomeView()
 }
