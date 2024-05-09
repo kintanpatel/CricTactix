@@ -35,7 +35,12 @@ struct SideMenuView: View {
                     Spacer()
                 }
                 .padding(.top, 100)
-                .frame(width: 270)
+                .frame(width: 300).background( // notice the change to parentheses
+                    GeometryReader{ geometry in
+                        Color.white
+                        
+                    }
+                )
             
             Spacer()
             
@@ -140,3 +145,5 @@ enum SideMenuRowType: Int, CaseIterable{
         }
     }
 }
+
+
