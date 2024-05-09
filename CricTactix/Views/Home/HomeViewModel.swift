@@ -17,14 +17,14 @@ class HomeViewModel: ObservableObject {
     
     func getScheduledMatchList(){
         isLoading = true
-       if let data = loadJson(){
-            matchListCopy = data
-            updateMatchList(.upcoming)
-           DispatchQueue.main.asyncAfter(deadline: .now() + 1.0, execute: {
-               self.isLoading = false
-           })
-        }
-        return
+//       if let data = loadJson(){
+//            matchListCopy = data
+//            updateMatchList(.upcoming)
+//           DispatchQueue.main.asyncAfter(deadline: .now() + 1.0, execute: {
+//               self.isLoading = false
+//           })
+//        }
+//        return
         
 
         let urlString = "https://cricket-live-data.p.rapidapi.com/fixtures-by-series/2002"
